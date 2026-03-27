@@ -55,7 +55,7 @@ const (
 	// Protocol parameters
 	IKCP_ACK_FAST    = 3      // fast retransmit trigger threshold (duplicate ACK count)
 	IKCP_INTERVAL    = 100    // default flush interval (ms)
-	IKCP_OVERHEAD    = 20     // per-segment header size: conv(4) + cmd(1) + frg(1) + wnd(2) + ts(4) + sn(4) + una(4) + len(4)
+	IKCP_OVERHEAD    = 20     // per-segment header size: conv(4) + cmd(1) + frg(1) + wnd(2) + sn(4) + una(4) + len(4)
 	IKCP_DEADLINK    = 20     // max retransmissions before declaring dead link
 	IKCP_THRESH_INIT = 2      // initial slow-start threshold (packets)
 	IKCP_THRESH_MIN  = 2      // minimum slow-start threshold (packets)
